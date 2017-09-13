@@ -70,7 +70,7 @@ describe('regex', function () {
     const f = require('../lib/blink')
 
     assert.equal(
-      f('@@whatever@@').trim(),
+      f('@@whatever@@'),
       '<p><blink>whatever</blink></p>',
       '@@whatever@@'
     )
